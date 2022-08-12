@@ -28,4 +28,23 @@ public function register(RegisterRequest $request)
 
         return $this->successStatus(__("Send Email"));
     }
+```
+ ## Functions
+  
+| Function |
+| --- |
+| successStatus|
+| errorStatus |
+| respondNoContent |
+| respondWithItem |
+| respondWithItemName |
+| respondWithCollection |
+| respondWithMessage |
+| respondCreated |
+| respondWithError |
+| errorForbidden |
+| errorInternalError |
+| errorNotFound |
+| errorUnauthorized |
+| errorWrongArgs |
 
